@@ -14,7 +14,12 @@
                 alert(z);
             }
             alert(typeof(z));
-            class Persona;
+            class Persona {
+                constructor(nombre, edad){
+                    this.nombre = nombre;
+                    this.edad = edad;
+                }
+            }
             const p = new Persona();
             if (p instanceof Persona){
                 alert("Es una instancia de Persona");
